@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# YOLO
+*.pt
+runs/
+datasets/
+
+# Dataset and large files
+data/helmet_dataset/
+data/weights/
+data/videos/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.weights
+*.h5
+
+# Dataset images
+data/helmet_dataset/**/*.jpg 

@@ -1,0 +1,11 @@
+path: data/hardhat-vest-dataset-v3  # 데이터셋 경로
+train: images/train  # 학습 이미지 경로
+val: images/val  # 검증 이미지 경로
+test: images/test  # 테스트 이미지 경로
+
+# 클래스 정보
+names:
+  0: hardhat
+  1: vest
+  2: no-hardhat
+  3: no-vest 
